@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC6_VerifyClickingOnHome</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>752e2769-a43a-40d7-a95c-5ad792a70177</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_VerifyAddressOnHomePage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bc66272b-9b76-404d-b504-d0ddce5d98ef</testCaseGuid>
+</TestCaseEntity>

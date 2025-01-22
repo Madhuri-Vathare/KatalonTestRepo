@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_VerifyFacilityDDValues</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1a907e4f-449c-4c1b-97d2-eed507ec31e7</testCaseGuid>
+</TestCaseEntity>
