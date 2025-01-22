@@ -6,12 +6,12 @@
    <elementGuidId>2e647b6d-73b2-4b7d-b328-b0f8887566e2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#btn-login</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::button[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btn-login']</value>
+         <key>CSS</key>
+         <value>#btn-login</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
