@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_ClickOnHistoryWithNoAppoinment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41cd72b4-fde0-40d0-bf13-2e6a84ce95b2</testCaseGuid>
+</TestCaseEntity>

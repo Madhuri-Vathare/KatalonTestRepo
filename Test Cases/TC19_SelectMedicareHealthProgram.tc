@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19_SelectMedicareHealthProgram</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9da3edae-2c6e-438e-b17a-a9a5a87b3bc2</testCaseGuid>
+</TestCaseEntity>
