@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login",
+      "brokenLocator": "//button[@id\u003d\u0027btn-login\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CURA Healthcare Service\u0027])[3]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250122_124512/katalon-demo Test Suite/20250122_124512/Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login_neighbor.png"
+    }
+  ]
+}

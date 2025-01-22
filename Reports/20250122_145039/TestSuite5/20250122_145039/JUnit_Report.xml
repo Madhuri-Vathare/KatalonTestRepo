@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite5" time="326.919" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite5" tests="2" failures="0" errors="0" time="326.919" skipped="0" timestamp="22-01-2025T14:51:04" hostname="LENOVO - DESKTOP-PTO9K6O" id="Test Suites/TestSuite5">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250122_145039\\TestSuite5\\20250122_145039"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250122_145039\\TestSuite5\\20250122_145039\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-PTO9K6O"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="sessionId" value="1923f753-ed73-40e7-877d-b2a9419c0ad9"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;se:ieOptions&quot;: {&#xa;    &quot;browserAttachTimeout&quot;: 0,&#xa;    &quot;elementScrollBehavior&quot;: 0,&#xa;    &quot;enablePersistentHover&quot;: false,&#xa;    &quot;ie.browserCommandLineSwitches&quot;: &quot;&quot;,&#xa;    &quot;ie.ensureCleanSession&quot;: false,&#xa;    &quot;ie.fileUploadDialogTimeout&quot;: 3000,&#xa;    &quot;ie.forceCreateProcessApi&quot;: false,&#xa;    &quot;ignoreProtectedModeSettings&quot;: true,&#xa;    &quot;ignoreZoomSetting&quot;: true,&#xa;    &quot;initialBrowserUrl&quot;: &quot;http://localhost:41000/&quot;,&#xa;    &quot;nativeEvents&quot;: true,&#xa;    &quot;requireWindowFocus&quot;: true&#xa;  },&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;91b6c829-e6c5-4e50-be5f-386ce7dfaa33&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;test:katalon:option&quot;: {&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;organizationId&quot;: &quot;1874306&quot;,&#xa;      &quot;accountId&quot;: &quot;1457090&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d10.0.1&quot;,&#xa;      &quot;accountUuid&quot;: &quot;c6686683-9d96-48f5-b27c-e636febf5ea7&quot;&#xa;    },&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;webdriver.remote.sessionid&quot;: &quot;1923f753-ed73-40e7-877d-b2a9419c0ad9&quot;,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;11&quot;,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;07f146e3-3b6c-4d74-b668-a8b32cfab166&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;91b6c829-e6c5-4e50-be5f-386ce7dfaa33&quot;&#xa;  },&#xa;  &quot;kt:requestId&quot;: &quot;91b6c829-e6c5-4e50-be5f-386ce7dfaa33&quot;,&#xa;  &quot;browserName&quot;: &quot;internet explorer&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;07f146e3-3b6c-4d74-b668-a8b32cfab166&quot;,&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;91b6c829-e6c5-4e50-be5f-386ce7dfaa33&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;usingTunnel&quot;: false,&#xa;      &quot;accountUuid&quot;: &quot;c6686683-9d96-48f5-b27c-e636febf5ea7&quot;,&#xa;      &quot;organizationId&quot;: &quot;1874306&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d10.0.1&quot;&#xa;    },&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;userId&quot;: 1643285,&#xa;    &quot;usingTunnel&quot;: false&#xa;  }&#xa;}"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;executionId&quot;: &quot;07f146e3-3b6c-4d74-b668-a8b32cfab166&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;91b6c829-e6c5-4e50-be5f-386ce7dfaa33&quot;&#xa;}"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="192.168.202.1"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+      </properties>
+      <testcase name="Test Cases/TC10_ValidUsernamePassword" time="71.87" classname="Test Cases/TC10_ValidUsernamePassword" status="PASSED">
+         <system-out><![CDATA[22-01-2025T14:54:27 - [TEST_CASE][PASSED] - Test Cases/TC10_ValidUsernamePassword: Test Cases/TC10_ValidUsernamePassword
+
+22-01-2025T14:54:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2025T14:54:27 - [MESSAGE][INFO] - User set preference: ['browserVersion', '11']
+
+22-01-2025T14:54:27 - [MESSAGE][INFO] - User set preference: ['browserName', 'internet explorer']
+
+22-01-2025T14:54:27 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+22-01-2025T14:54:27 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1874306, accountId=1457090, channel=kse;v=10.0.1}, executionMode=queue, usingTunnel=false}']
+
+22-01-2025T14:54:27 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+22-01-2025T14:54:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2025T14:54:48 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:54:48 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:55:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2025T14:55:21 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:55:23 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:55:23 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+22-01-2025T14:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+22-01-2025T14:55:27 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+22-01-2025T14:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+22-01-2025T14:55:29 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username'
+
+22-01-2025T14:55:33 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username'
+
+22-01-2025T14:55:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LoginPage/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Password_password'
+
+22-01-2025T14:55:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Password_password'
+
+22-01-2025T14:55:36 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login' is clicked on
+
+22-01-2025T14:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login' is clicked on
+
+22-01-2025T14:55:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/h2_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/h2_Make Appointment' are matched.
+
+22-01-2025T14:55:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/h2_Make Appointment' are matched.
+
+22-01-2025T14:55:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2025T14:55:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC11_VerifyMenuAfterLogin" time="51.62" classname="Test Cases/TC11_VerifyMenuAfterLogin" status="PASSED">
+         <system-out><![CDATA[22-01-2025T14:55:39 - [TEST_CASE][PASSED] - Test Cases/TC11_VerifyMenuAfterLogin: Test Cases/TC11_VerifyMenuAfterLogin
+
+22-01-2025T14:55:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2025T14:55:39 - [MESSAGE][INFO] - User set preference: ['browserVersion', '11']
+
+22-01-2025T14:55:39 - [MESSAGE][INFO] - User set preference: ['browserName', 'internet explorer']
+
+22-01-2025T14:55:39 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+22-01-2025T14:55:39 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1874306, accountId=1457090, channel=kse;v=10.0.1}, executionMode=queue, usingTunnel=false}']
+
+22-01-2025T14:55:39 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+22-01-2025T14:55:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2025T14:56:00 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:56:00 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:56:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2025T14:56:02 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:56:08 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+22-01-2025T14:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+22-01-2025T14:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+22-01-2025T14:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+22-01-2025T14:56:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/HomePage/Page_CURA Healthcare Service/input_Username_username'
+
+22-01-2025T14:56:16 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/HomePage/Page_CURA Healthcare Service/input_Username_username'
+
+22-01-2025T14:56:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/HomePage/Page_CURA Healthcare Service/input_Password_password'
+
+22-01-2025T14:56:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/HomePage/Page_CURA Healthcare Service/input_Password_password'
+
+22-01-2025T14:56:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/button_Login' is clicked on
+
+22-01-2025T14:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/button_Login' is clicked on
+
+22-01-2025T14:56:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+22-01-2025T14:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+22-01-2025T14:56:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/a_Home"), "Home"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Home' are matched.
+
+22-01-2025T14:56:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Home' are matched.
+
+22-01-2025T14:56:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/a_History"), "History"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_History' are matched.
+
+22-01-2025T14:56:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_History' are matched.
+
+22-01-2025T14:56:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/a_Profile"), "Profile"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Profile' are matched.
+
+22-01-2025T14:56:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Profile' are matched.
+
+22-01-2025T14:56:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/a_Logout"), "Logout"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Logout' are matched.
+
+22-01-2025T14:56:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Logout' are matched.
+
+22-01-2025T14:56:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2025T14:56:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-01-2025T14:51:04 - [TEST_SUITE][FAILED] - TestSuite5: Test Cases/TC10_ValidUsernamePassword FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at TC10_ValidUsernamePassword.run(TC10_ValidUsernamePassword:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1737537639759.run(TempTestSuite1737537639759.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Unable to execute request for an existing session: java.io.IOException: HTTP/1.1 header parser received no bytes
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [7abfc89a-daad-4628-aa81-aab3d5b69dff, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, katalon:caps: {executionId: 35dd73e5-6b52-4b91-99de-8be..., executionSessionId: bffee039-6168-4729-af8c-fc6...}, katalon:options: {executionId: 35dd73e5-6b52-4b91-99de-8be..., executionMode: queue, executionSessionId: bffee039-6168-4729-af8c-fc6..., metadata: {accountUuid: c6686683-9d96-48f5-b27c-e63..., channel: kse;v=10.0.1, organizationId: 1874306, usingTunnel: false}, runFromTestCloud: true, userId: 1643285, usingTunnel: false}, kt:requestId: bffee039-6168-4729-af8c-fc6..., kt:rid: bffee039-6168-4729-af8c-fc6..., pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: false, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: true}, setWindowRect: true, test:katalon:option: {executionMode: queue, metadata: {accountId: 1457090, accountUuid: c6686683-9d96-48f5-b27c-e63..., channel: kse;v=10.0.1, organizationId: 1874306}, usingTunnel: false}, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 7abfc89a-daad-4628-aa81-aab...}
+Session ID: 7abfc89a-daad-4628-aa81-aab3d5b69dff
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:96)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$IqQta51B.quit(Unknown Source)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:841)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[22-01-2025T14:51:04 - [TEST_SUITE][FAILED] - TestSuite5: Test Cases/TC10_ValidUsernamePassword FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close browser
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser(CloseBrowserKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.execute(CloseBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser(WebUiBuiltInKeywords.groovy:83)
+	at TC10_ValidUsernamePassword.run(TC10_ValidUsernamePassword:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1737537639759.run(TempTestSuite1737537639759.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: Unable to execute request for an existing session: java.io.IOException: HTTP/1.1 header parser received no bytes
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Command: [7abfc89a-daad-4628-aa81-aab3d5b69dff, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, katalon:caps: {executionId: 35dd73e5-6b52-4b91-99de-8be..., executionSessionId: bffee039-6168-4729-af8c-fc6...}, katalon:options: {executionId: 35dd73e5-6b52-4b91-99de-8be..., executionMode: queue, executionSessionId: bffee039-6168-4729-af8c-fc6..., metadata: {accountUuid: c6686683-9d96-48f5-b27c-e63..., channel: kse;v=10.0.1, organizationId: 1874306, usingTunnel: false}, runFromTestCloud: true, userId: 1643285, usingTunnel: false}, kt:requestId: bffee039-6168-4729-af8c-fc6..., kt:rid: bffee039-6168-4729-af8c-fc6..., pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: false, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: true, ignoreZoomSetting: true, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: true}, setWindowRect: true, test:katalon:option: {executionMode: queue, metadata: {accountId: 1457090, accountUuid: c6686683-9d96-48f5-b27c-e63..., channel: kse;v=10.0.1, organizationId: 1874306}, usingTunnel: false}, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 7abfc89a-daad-4628-aa81-aab...}
+Session ID: 7abfc89a-daad-4628-aa81-aab3d5b69dff
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:96)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:433)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$IqQta51B.quit(Unknown Source)
+	at com.kms.katalon.core.webui.driver.DriverFactory.closeWebDriver(DriverFactory.java:841)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.doCall(CloseBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword$_closeBrowser_closure1.call(CloseBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

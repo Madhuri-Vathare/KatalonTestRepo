@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 124.0.0.0,,,06-01-2025 15:34:37,06-01-2025 15:34:45,7.790s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 124.0.0.0,,,06-01-2025 15:34:37,06-01-2025 15:34:45,7.295s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,06-01-2025 15:34:38,06-01-2025 15:34:44,6.225s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,06-01-2025 15:34:44,06-01-2025 15:34:45,0.487s,PASSED

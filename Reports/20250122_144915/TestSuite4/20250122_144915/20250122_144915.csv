@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite4,TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:49:36,22-01-2025 14:50:56,1m - 19.564s,PASSED
+,,,,,,,
+Test Cases/TC6_VerifyClickingOnHome,TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:49:37,22-01-2025 14:50:16,39.259s,PASSED
+"openBrowser("""")",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:49:38,22-01-2025 14:50:09,30.951s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:09,22-01-2025 14:50:10,1.001s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:10,22-01-2025 14:50:12,2.156s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Home""))",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:12,22-01-2025 14:50:14,1.810s,PASSED
+HomeURL = getUrl(),TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:14,22-01-2025 14:50:14,0.370s,PASSED
+"assert HomeURL == ""https://katalon-demo-cura.herokuapp.com/""",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:14,22-01-2025 14:50:14,0.031s,PASSED
+closeBrowser(),TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:14,22-01-2025 14:50:16,1.834s,PASSED
+,,,,,,,
+Test Cases/TC7_VerifyClickOnLogin,TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:16,22-01-2025 14:50:56,39.594s,PASSED
+"openBrowser("""")",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:16,22-01-2025 14:50:48,31.783s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:48,22-01-2025 14:50:49,1.126s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:49,22-01-2025 14:50:51,1.904s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Login""))",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:51,22-01-2025 14:50:53,2.072s,PASSED
+LoginPageURL = getUrl(),TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:53,22-01-2025 14:50:54,0.364s,PASSED
+"assert LoginPageURL == ""https://katalon-demo-cura.herokuapp.com/profile.php#login""",TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:54,22-01-2025 14:50:54,0.006s,PASSED
+closeBrowser(),TestCloud - Windows - Firefox 134.0,,,22-01-2025 14:50:54,22-01-2025 14:50:56,1.996s,PASSED

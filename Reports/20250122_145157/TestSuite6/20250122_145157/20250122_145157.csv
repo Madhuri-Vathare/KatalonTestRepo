@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite6,TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:19,22-01-2025 14:54:01,1m - 41.542s,PASSED
+,,,,,,,
+Test Cases/TC1_VerifyLoginPage,TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:20,22-01-2025 14:52:57,37.390s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:20,22-01-2025 14:52:46,25.797s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:46,22-01-2025 14:52:48,1.367s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:48,22-01-2025 14:52:50,2.019s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login""))",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:50,22-01-2025 14:52:51,1.587s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/h2_Login""), 0)",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:51,22-01-2025 14:52:52,0.803s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username""))",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:52,22-01-2025 14:52:53,1.212s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:53,22-01-2025 14:52:54,1.242s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), ""Login failed! Please ensure the username and password are valid."")",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:54,22-01-2025 14:52:56,1.535s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:52:56,22-01-2025 14:52:57,1.020s,PASSED
+,,,,,,,
+Test Cases/TC2_VerifyDemoUsernamePassword,TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:53:27,22-01-2025 14:54:01,33.643s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:53:27,22-01-2025 14:53:51,23.746s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:53:51,22-01-2025 14:53:52,1.248s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:53:52,22-01-2025 14:53:54,2.146s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login""))",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:53:54,22-01-2025 14:53:56,2.054s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/label_Demo account""), ""Demo account"")",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:53:56,22-01-2025 14:53:57,1.186s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control""))",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:53:57,22-01-2025 14:53:58,1.098s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:53:58,22-01-2025 14:54:00,1.071s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 133.0.0.0,,,22-01-2025 14:54:00,22-01-2025 14:54:01,1.021s,PASSED

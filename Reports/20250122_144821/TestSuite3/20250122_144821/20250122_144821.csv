@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite3,TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:48:40,22-01-2025 14:51:16,2m - 35.889s,PASSED
+,,,,,,,
+Test Cases/TC16_VerifyFacilityDDSelectByValue,TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:48:40,22-01-2025 14:49:44,1m - 3.392s,PASSED
+"openBrowser("""")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:48:41,22-01-2025 14:49:18,37.224s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:18,22-01-2025 14:49:19,0.837s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:19,22-01-2025 14:49:21,2.122s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Login""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:21,22-01-2025 14:49:24,2.323s,PASSED
+"setText(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:24,22-01-2025 14:49:28,4.052s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:28,22-01-2025 14:49:30,2.054s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:30,22-01-2025 14:49:32,1.959s,PASSED
+"click(findTestObject(""MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:32,22-01-2025 14:49:34,1.811s,PASSED
+"facilityDDValue = getNumberOfSelectedOption(findTestObject(""MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:34,22-01-2025 14:49:38,4.501s,PASSED
+assert facilityDDValue == 1,TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:38,22-01-2025 14:49:38,0.028s,PASSED
+"selectOptionByValue(findTestObject(""MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", false)",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:38,22-01-2025 14:49:43,4.468s,PASSED
+closeBrowser(),TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:43,22-01-2025 14:49:44,1.013s,PASSED
+,,,,,,,
+Test Cases/TC17_CheckApplyForHospitalReadmission,TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:44,22-01-2025 14:50:27,43.406s,PASSED
+"openBrowser("""")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:49:44,22-01-2025 14:50:14,29.526s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:14,22-01-2025 14:50:14,0.713s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:14,22-01-2025 14:50:16,1.780s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Login""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:16,22-01-2025 14:50:18,1.925s,PASSED
+"setText(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:18,22-01-2025 14:50:22,3.553s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:22,22-01-2025 14:50:24,2.035s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:24,22-01-2025 14:50:25,1.911s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:25,22-01-2025 14:50:27,1.632s,PASSED
+,,,,,,,
+Test Cases/TC18_SelectDate,TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:27,22-01-2025 14:51:16,48.423s,PASSED
+"openBrowser("""")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:27,22-01-2025 14:50:56,28.992s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:56,22-01-2025 14:50:57,0.435s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:57,22-01-2025 14:50:59,1.977s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Login""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:50:59,22-01-2025 14:51:01,2.028s,PASSED
+"setText(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:51:01,22-01-2025 14:51:05,3.944s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:51:05,22-01-2025 14:51:07,2.508s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:51:07,22-01-2025 14:51:09,2.175s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:51:09,22-01-2025 14:51:11,1.837s,PASSED
+"click(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/td_11""))",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:51:11,22-01-2025 14:51:13,1.687s,PASSED
+"verifyElementText(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), """")",TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:51:13,22-01-2025 14:51:15,1.614s,PASSED
+closeBrowser(),TestCloud - Windows - Edge Chromium 132,,,22-01-2025 14:51:15,22-01-2025 14:51:16,0.960s,PASSED
