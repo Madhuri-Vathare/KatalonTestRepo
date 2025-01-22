@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="7.79" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="7.79" skipped="0" timestamp="06-01-2025T15:34:37" hostname="LENOVO - DESKTOP-PTO9K6O" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_153419\\New Test Suite\\20250106_153419"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_153419\\New Test Suite\\20250106_153419\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-PTO9K6O"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.202.1"/>
+         <property name="sessionId" value="428b6a6d01874351b86a061d932d98ba"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="7.295" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[06-01-2025T15:34:37 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+06-01-2025T15:34:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2025T15:34:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2025T15:34:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2025T15:34:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2025T15:34:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2025T15:34:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-01-2025T15:34:37 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

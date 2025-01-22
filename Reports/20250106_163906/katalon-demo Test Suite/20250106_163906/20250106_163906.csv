@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+katalon-demo Test Suite,Chrome 124.0.0.0,,,06-01-2025 16:39:23,06-01-2025 16:40:33,1m - 10.068s,FAILED
+,,,,,,,
+Test Cases/TC1_VerifyLoginPage,Chrome 124.0.0.0,,,06-01-2025 16:39:28,06-01-2025 16:39:42,13.649s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,06-01-2025 16:39:28,06-01-2025 16:39:33,4.158s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 124.0.0.0,,,06-01-2025 16:39:33,06-01-2025 16:39:37,3.982s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 124.0.0.0,,,06-01-2025 16:39:37,06-01-2025 16:39:38,0.951s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login""))",Chrome 124.0.0.0,,,06-01-2025 16:39:38,06-01-2025 16:39:39,1.051s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/h2_Login""), 0)",Chrome 124.0.0.0,,,06-01-2025 16:39:39,06-01-2025 16:39:39,0.503s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username""))",Chrome 124.0.0.0,,,06-01-2025 16:39:39,06-01-2025 16:39:40,0.492s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login""))",Chrome 124.0.0.0,,,06-01-2025 16:39:40,06-01-2025 16:39:41,1.403s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), ""Login failed! Please ensure the username and password are valid."")",Chrome 124.0.0.0,,,06-01-2025 16:39:41,06-01-2025 16:39:42,0.554s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,06-01-2025 16:39:42,06-01-2025 16:39:42,0.440s,PASSED
+,,,,,,,
+Test Cases/TC2_VerifyDemoUsernamePassword,Chrome 124.0.0.0,,,06-01-2025 16:39:42,06-01-2025 16:39:52,10.064s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,06-01-2025 16:39:42,06-01-2025 16:39:45,2.555s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 124.0.0.0,,,06-01-2025 16:39:45,06-01-2025 16:39:49,3.961s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 124.0.0.0,,,06-01-2025 16:39:49,06-01-2025 16:39:49,0.573s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login""))",Chrome 124.0.0.0,,,06-01-2025 16:39:49,06-01-2025 16:39:50,1.143s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/label_Demo account""), ""Demo account"")",Chrome 124.0.0.0,,,06-01-2025 16:39:50,06-01-2025 16:39:51,0.468s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control""))",Chrome 124.0.0.0,,,06-01-2025 16:39:51,06-01-2025 16:39:51,0.398s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",Chrome 124.0.0.0,,,06-01-2025 16:39:51,06-01-2025 16:39:52,0.396s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,06-01-2025 16:39:52,06-01-2025 16:39:52,0.334s,PASSED
+,,,,,,,
+Test Cases/TC3_VerifyHomePage,Chrome 124.0.0.0,,,06-01-2025 16:39:52,06-01-2025 16:40:00,8.295s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,06-01-2025 16:39:52,06-01-2025 16:39:54,2.160s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 124.0.0.0,,,06-01-2025 16:39:54,06-01-2025 16:39:58,3.432s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",Chrome 124.0.0.0,,,06-01-2025 16:39:58,06-01-2025 16:39:58,0.447s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health""))",Chrome 124.0.0.0,,,06-01-2025 16:39:58,06-01-2025 16:39:59,0.523s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health""), ""We Care About Your Health"")",Chrome 124.0.0.0,,,06-01-2025 16:39:59,06-01-2025 16:39:59,0.346s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment""), ""Make Appointment"")",Chrome 124.0.0.0,,,06-01-2025 16:39:59,06-01-2025 16:40:00,0.346s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 124.0.0.0,,,06-01-2025 16:40:00,06-01-2025 16:40:00,0.406s,PASSED
+closeBrowser(),Chrome 124.0.0.0,,,06-01-2025 16:40:00,06-01-2025 16:40:00,0.417s,PASSED
+,,,,,,,
+Test Cases/TC4_VerifyAddressOnHomePage,Chrome 124.0.0.0,,,06-01-2025 16:40:25,06-01-2025 16:40:33,7.778s,FAILED
+"openBrowser("""")",Chrome 124.0.0.0,,,06-01-2025 16:40:25,06-01-2025 16:40:28,2.527s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 124.0.0.0,,,06-01-2025 16:40:28,06-01-2025 16:40:31,3.494s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/strong_CURA Healthcare Service""), ""CURA Healthcare Service"")",Chrome 124.0.0.0,,,06-01-2025 16:40:31,06-01-2025 16:40:32,0.426s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85""), ""Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305"")",Chrome 124.0.0.0,,,06-01-2025 16:40:32,06-01-2025 16:40:33,1.289s,FAILED

@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite5,TestCloud - Windows - IE 11,,,22-01-2025 14:51:04,22-01-2025 14:56:31,5m - 26.919s,PASSED
+,,,,,,,
+Test Cases/TC10_ValidUsernamePassword,TestCloud - Windows - IE 11,,,22-01-2025 14:54:27,22-01-2025 14:55:39,1m - 11.870s,PASSED
+"openBrowser("""")",TestCloud - Windows - IE 11,,,22-01-2025 14:54:27,22-01-2025 14:55:21,54.080s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - IE 11,,,22-01-2025 14:55:21,22-01-2025 14:55:23,1.906s,PASSED
+"click(findTestObject(""HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - Windows - IE 11,,,22-01-2025 14:55:23,22-01-2025 14:55:27,3.265s,PASSED
+"click(findTestObject(""HomePage/Page_CURA Healthcare Service/a_Login""))",TestCloud - Windows - IE 11,,,22-01-2025 14:55:27,22-01-2025 14:55:29,2.105s,PASSED
+"setText(findTestObject(""LoginPage/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - Windows - IE 11,,,22-01-2025 14:55:29,22-01-2025 14:55:33,4.496s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - Windows - IE 11,,,22-01-2025 14:55:33,22-01-2025 14:55:36,2.330s,PASSED
+"click(findTestObject(""LoginPage/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - IE 11,,,22-01-2025 14:55:36,22-01-2025 14:55:37,1.494s,PASSED
+"verifyElementText(findTestObject(""Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"")",TestCloud - Windows - IE 11,,,22-01-2025 14:55:37,22-01-2025 14:55:38,1.220s,PASSED
+closeBrowser(),TestCloud - Windows - IE 11,,,22-01-2025 14:55:38,22-01-2025 14:55:39,0.890s,PASSED
+,,,,,,,
+Test Cases/TC11_VerifyMenuAfterLogin,TestCloud - Windows - IE 11,,,22-01-2025 14:55:39,22-01-2025 14:56:31,51.620s,PASSED
+"openBrowser("""")",TestCloud - Windows - IE 11,,,22-01-2025 14:55:39,22-01-2025 14:56:02,22.557s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - Windows - IE 11,,,22-01-2025 14:56:02,22-01-2025 14:56:08,6.086s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - Windows - IE 11,,,22-01-2025 14:56:08,22-01-2025 14:56:10,2.119s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Login""))",TestCloud - Windows - IE 11,,,22-01-2025 14:56:10,22-01-2025 14:56:12,2.216s,PASSED
+"setText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",TestCloud - Windows - IE 11,,,22-01-2025 14:56:12,22-01-2025 14:56:16,3.859s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",TestCloud - Windows - IE 11,,,22-01-2025 14:56:16,22-01-2025 14:56:19,2.960s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/button_Login""))",TestCloud - Windows - IE 11,,,22-01-2025 14:56:19,22-01-2025 14:56:21,2.194s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - Windows - IE 11,,,22-01-2025 14:56:21,22-01-2025 14:56:23,2.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Home""), ""Home"")",TestCloud - Windows - IE 11,,,22-01-2025 14:56:23,22-01-2025 14:56:25,1.408s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_History""), ""History"")",TestCloud - Windows - IE 11,,,22-01-2025 14:56:25,22-01-2025 14:56:26,1.533s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Profile""), ""Profile"")",TestCloud - Windows - IE 11,,,22-01-2025 14:56:26,22-01-2025 14:56:28,1.686s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Logout""), ""Logout"")",TestCloud - Windows - IE 11,,,22-01-2025 14:56:28,22-01-2025 14:56:30,1.593s,PASSED
+closeBrowser(),TestCloud - Windows - IE 11,,,22-01-2025 14:56:30,22-01-2025 14:56:31,1.105s,PASSED

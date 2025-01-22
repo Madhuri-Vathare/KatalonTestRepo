@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,TestCloud - macOS - Safari 17,,,22-01-2025 14:44:02,22-01-2025 14:45:56,1m - 54.653s,PASSED
+,,,,,,,
+Test Cases/TC1_VerifyLoginPage,TestCloud - macOS - Safari 17,,,22-01-2025 14:44:19,22-01-2025 14:44:54,34.700s,PASSED
+"openBrowser("""")",TestCloud - macOS - Safari 17,,,22-01-2025 14:44:19,22-01-2025 14:44:45,25.253s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - macOS - Safari 17,,,22-01-2025 14:44:45,22-01-2025 14:44:46,0.803s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:44:46,22-01-2025 14:44:47,1.440s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:44:47,22-01-2025 14:44:48,1.199s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/h2_Login""), 0)",TestCloud - macOS - Safari 17,,,22-01-2025 14:44:48,22-01-2025 14:44:49,0.839s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:44:49,22-01-2025 14:44:50,1.196s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:44:50,22-01-2025 14:44:52,1.310s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), ""Login failed! Please ensure the username and password are valid."")",TestCloud - macOS - Safari 17,,,22-01-2025 14:44:52,22-01-2025 14:44:53,1.404s,PASSED
+closeBrowser(),TestCloud - macOS - Safari 17,,,22-01-2025 14:44:53,22-01-2025 14:44:54,1.125s,PASSED
+,,,,,,,
+Test Cases/TC2_VerifyDemoUsernamePassword,TestCloud - macOS - Safari 17,,,22-01-2025 14:44:54,22-01-2025 14:45:25,31.356s,PASSED
+"openBrowser("""")",TestCloud - macOS - Safari 17,,,22-01-2025 14:44:54,22-01-2025 14:45:18,23.584s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:18,22-01-2025 14:45:19,0.774s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:19,22-01-2025 14:45:20,1.185s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:20,22-01-2025 14:45:21,1.183s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/label_Demo account""), ""Demo account"")",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:21,22-01-2025 14:45:22,1.129s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:22,22-01-2025 14:45:23,1.165s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control_1""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:23,22-01-2025 14:45:25,1.183s,PASSED
+closeBrowser(),TestCloud - macOS - Safari 17,,,22-01-2025 14:45:25,22-01-2025 14:45:25,0.945s,PASSED
+,,,,,,,
+Test Cases/TC3_VerifyHomePage,TestCloud - macOS - Safari 17,,,22-01-2025 14:45:26,22-01-2025 14:45:56,30.868s,PASSED
+"openBrowser("""")",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:26,22-01-2025 14:45:49,23.112s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:49,22-01-2025 14:45:50,0.889s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:50,22-01-2025 14:45:51,1.170s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:51,22-01-2025 14:45:52,1.252s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health""), ""We Care About Your Health"")",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:52,22-01-2025 14:45:53,1.025s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment""), ""Make Appointment"")",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:53,22-01-2025 14:45:54,1.072s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment""))",TestCloud - macOS - Safari 17,,,22-01-2025 14:45:54,22-01-2025 14:45:56,1.231s,PASSED
+closeBrowser(),TestCloud - macOS - Safari 17,,,22-01-2025 14:45:56,22-01-2025 14:45:56,0.869s,PASSED

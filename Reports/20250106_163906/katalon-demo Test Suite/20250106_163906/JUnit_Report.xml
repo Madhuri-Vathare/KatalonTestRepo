@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="katalon-demo Test Suite" time="70.068" tests="4" failures="1" errors="0">
+   <testsuite name="katalon-demo Test Suite" tests="4" failures="1" errors="0" time="70.068" skipped="0" timestamp="06-01-2025T16:39:23" hostname="LENOVO - DESKTOP-PTO9K6O" id="Test Suites/katalon-demo Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161808095.png, C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161808670.png, C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161816476.png, C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161816947.png, C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161824714.png, C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161825207.png, C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161832596.png, C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161833053.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-PTO9K6O"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.202.1"/>
+         <property name="sessionId" value="1ab3c7f2a38cf05918c9a46fbf605010"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC1_VerifyLoginPage" time="13.649" classname="Test Cases/TC1_VerifyLoginPage" status="PASSED">
+         <system-out><![CDATA[06-01-2025T16:39:28 - [TEST_CASE][PASSED] - Test Cases/TC1_VerifyLoginPage: Test Cases/TC1_VerifyLoginPage
+
+06-01-2025T16:39:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2025T16:39:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2025T16:39:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2025T16:39:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2025T16:39:33 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-01-2025T16:39:37 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-01-2025T16:39:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-01-2025T16:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-01-2025T16:39:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+06-01-2025T16:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+06-01-2025T16:39:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/h2_Login' is present
+
+06-01-2025T16:39:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-01-2025T16:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/h2_Login' is present
+
+06-01-2025T16:39:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username")): Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username' is visible
+
+06-01-2025T16:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username' is visible
+
+06-01-2025T16:39:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login' is clicked on
+
+06-01-2025T16:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login' is clicked on
+
+06-01-2025T16:39:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), "Login failed! Please ensure the username and password are valid."): Actual text and expected text of test object 'Object Repository/LoginPage/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+06-01-2025T16:39:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginPage/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+06-01-2025T16:39:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2025T16:39:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_VerifyDemoUsernamePassword" time="10.064" classname="Test Cases/TC2_VerifyDemoUsernamePassword" status="PASSED">
+         <system-out><![CDATA[06-01-2025T16:39:42 - [TEST_CASE][PASSED] - Test Cases/TC2_VerifyDemoUsernamePassword: Test Cases/TC2_VerifyDemoUsernamePassword
+
+06-01-2025T16:39:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2025T16:39:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2025T16:39:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2025T16:39:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2025T16:39:45 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-01-2025T16:39:49 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-01-2025T16:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+06-01-2025T16:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+06-01-2025T16:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+06-01-2025T16:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+06-01-2025T16:39:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/label_Demo account"), "Demo account"): Actual text and expected text of test object 'Object Repository/LoginPage/Page_CURA Healthcare Service/label_Demo account' are matched.
+
+06-01-2025T16:39:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginPage/Page_CURA Healthcare Service/label_Demo account' are matched.
+
+06-01-2025T16:39:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control")): Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control' is visible
+
+06-01-2025T16:39:51 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control' is visible
+
+06-01-2025T16:39:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control_1")): Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control_1' is visible
+
+06-01-2025T16:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control_1' is visible
+
+06-01-2025T16:39:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2025T16:39:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC3_VerifyHomePage" time="8.295" classname="Test Cases/TC3_VerifyHomePage" status="PASSED">
+         <system-out><![CDATA[06-01-2025T16:39:52 - [TEST_CASE][PASSED] - Test Cases/TC3_VerifyHomePage: Test Cases/TC3_VerifyHomePage
+
+06-01-2025T16:39:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2025T16:39:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2025T16:39:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2025T16:39:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2025T16:39:54 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-01-2025T16:39:58 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-01-2025T16:39:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+06-01-2025T16:39:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+06-01-2025T16:39:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health")): Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+06-01-2025T16:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+06-01-2025T16:39:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health"), "We Care About Your Health"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health' are matched.
+
+06-01-2025T16:39:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health' are matched.
+
+06-01-2025T16:39:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+06-01-2025T16:40:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+06-01-2025T16:40:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment")): Object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+06-01-2025T16:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+06-01-2025T16:40:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-01-2025T16:40:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC4_VerifyAddressOnHomePage" time="7.778" classname="Test Cases/TC4_VerifyAddressOnHomePage" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC4_VerifyAddressOnHomePage FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)&#xa;	at TC4_VerifyAddressOnHomePage.run(TC4_VerifyAddressOnHomePage:27)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1736161746430.run(TempTestSuite1736161746430.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Atlanta 550 Pharr Road NE Suite 525&#xa;Atlanta, GA 30305' and expected text 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305' of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[06-01-2025T16:40:25 - [TEST_CASE][FAILED] - Test Cases/TC4_VerifyAddressOnHomePage: Test Cases/TC4_VerifyAddressOnHomePage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC4_VerifyAddressOnHomePage.run(TC4_VerifyAddressOnHomePage:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736161746430.run(TempTestSuite1736161746430.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Atlanta 550 Pharr Road NE Suite 525
+Atlanta, GA 30305' and expected text 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305' of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+06-01-2025T16:40:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-01-2025T16:40:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-01-2025T16:40:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-01-2025T16:40:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-01-2025T16:40:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-01-2025T16:40:28 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-01-2025T16:40:31 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-01-2025T16:40:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/strong_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/strong_CURA Healthcare Service' are matched.
+
+06-01-2025T16:40:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/strong_CURA Healthcare Service' are matched.
+
+06-01-2025T16:40:32 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85"), "Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305"): Verify element text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC4_VerifyAddressOnHomePage.run(TC4_VerifyAddressOnHomePage:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736161746430.run(TempTestSuite1736161746430.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Atlanta 550 Pharr Road NE Suite 525
+Atlanta, GA 30305' and expected text 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305' of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+06-01-2025T16:40:33 - [MESSAGE][FAILED] - Actual text 'Atlanta 550 Pharr Road NE Suite 525
+Atlanta, GA 30305' and expected text 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305' of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Atlanta 550 Pharr Road NE Suite 525
+Atlanta, GA 30305' and expected text 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305' of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC4_VerifyAddressOnHomePage.run(TC4_VerifyAddressOnHomePage:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736161746430.run(TempTestSuite1736161746430.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161832596.png]]
+
+06-01-2025T16:40:33 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC4_VerifyAddressOnHomePage.run(TC4_VerifyAddressOnHomePage:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736161746430.run(TempTestSuite1736161746430.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Atlanta 550 Pharr Road NE Suite 525
+Atlanta, GA 30305' and expected text 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305' of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250106_163906\\katalon-demo Test Suite\\20250106_163906\\1736161833053.png]]]]></system-out>
+         <system-err><![CDATA[06-01-2025T16:40:25 - [TEST_CASE][FAILED] - Test Cases/TC4_VerifyAddressOnHomePage: Test Cases/TC4_VerifyAddressOnHomePage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC4_VerifyAddressOnHomePage.run(TC4_VerifyAddressOnHomePage:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736161746430.run(TempTestSuite1736161746430.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Atlanta 550 Pharr Road NE Suite 525
+Atlanta, GA 30305' and expected text 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305' of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-01-2025T16:39:23 - [TEST_SUITE][FAILED] - katalon-demo Test Suite: Test Cases/TC1_VerifyLoginPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC1_VerifyLoginPage.run(TC1_VerifyLoginPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736161746430.run(TempTestSuite1736161746430.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: no such execution context
+  (Session info: chrome=124.0.6367.119) 
+Host info: host: 'DESKTOP-PTO9K6O', ip: '192.168.202.1'
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, unhandledPromptBehavior: ignore, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.chrome.ChromeDriverBuilder.createDriver(ChromeDriverBuilder.java:41)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:163)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[06-01-2025T16:39:23 - [TEST_SUITE][FAILED] - katalon-demo Test Suite: Test Cases/TC1_VerifyLoginPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC1_VerifyLoginPage.run(TC1_VerifyLoginPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736161746430.run(TempTestSuite1736161746430.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 400. Message: no such execution context
+  (Session info: chrome=124.0.6367.119) 
+Host info: host: 'DESKTOP-PTO9K6O', ip: '192.168.202.1'
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, unhandledPromptBehavior: ignore, webSocketUrl: true}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.chrome.ChromeDriverBuilder.createDriver(ChromeDriverBuilder.java:41)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:163)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

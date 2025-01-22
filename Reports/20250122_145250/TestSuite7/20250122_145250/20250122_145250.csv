@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite7,TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:10,22-01-2025 14:56:32,3m - 21.868s,ERROR
+,,,,,,,
+Test Cases/TC6_VerifyClickingOnHome,TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:11,22-01-2025 14:53:54,42.598s,PASSED
+"openBrowser("""")",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:12,22-01-2025 14:53:45,32.509s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:45,22-01-2025 14:53:46,1.462s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:46,22-01-2025 14:53:49,3.323s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Home""))",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:49,22-01-2025 14:53:52,2.147s,PASSED
+HomeURL = getUrl(),TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:52,22-01-2025 14:53:52,0.432s,PASSED
+"assert HomeURL == ""https://katalon-demo-cura.herokuapp.com/""",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:52,22-01-2025 14:53:52,0.018s,PASSED
+closeBrowser(),TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:52,22-01-2025 14:53:54,1.581s,PASSED
+,,,,,,,
+Test Cases/TC7_VerifyClickOnLogin,TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:54,22-01-2025 14:54:26,32.779s,PASSED
+"openBrowser("""")",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:53:54,22-01-2025 14:54:19,25.127s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:54:19,22-01-2025 14:54:20,0.758s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:54:20,22-01-2025 14:54:22,2.066s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Login""))",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:54:22,22-01-2025 14:54:24,1.959s,PASSED
+LoginPageURL = getUrl(),TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:54:24,22-01-2025 14:54:24,0.476s,PASSED
+"assert LoginPageURL == ""https://katalon-demo-cura.herokuapp.com/profile.php#login""",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:54:24,22-01-2025 14:54:24,0.011s,PASSED
+closeBrowser(),TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:54:24,22-01-2025 14:54:26,1.934s,PASSED
+,,,,,,,
+Test Cases/TC8_VerifyMakeAppoinmentBeforeLogin,TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:56:02,22-01-2025 14:56:32,30.317s,ERROR
+"openBrowser("""")",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:56:02,22-01-2025 14:56:29,27.470s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:56:29,22-01-2025 14:56:30,0.705s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment""))",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:56:30,22-01-2025 14:56:32,2.065s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HomePage/Page_CURA Healthcare Service/h2_Login""), ""Login"")",TestCloud - macOS - Firefox 134.0,,,22-01-2025 14:56:32,22-01-2025 14:56:32,0.018s,ERROR

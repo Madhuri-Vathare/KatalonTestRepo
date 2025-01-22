@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="114.653" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="3" failures="0" errors="0" time="114.653" skipped="0" timestamp="22-01-2025T14:44:02" hostname="LENOVO - DESKTOP-PTO9K6O" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="MAC"/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250122_144331\\TestSuite1\\20250122_144331"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\My First Web UI Project\\Reports\\20250122_144331\\TestSuite1\\20250122_144331\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-PTO9K6O"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="macOS"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="sessionId" value="D572BB21-50E1-4FF6-8AD2-62192F855B01"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;safari:diagnose&quot;: false,&#xa;  &quot;kt:rid&quot;: &quot;e9440372-87d2-4a50-ba68-8cd2a6998382&quot;,&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;DIRECT&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;safari:automaticProfiling&quot;: false,&#xa;  &quot;safari:platformBuildVersion&quot;: &quot;23G80&quot;,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;17&quot;,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;f384a950-09f6-4bd6-b632-466a19ddd455&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;e9440372-87d2-4a50-ba68-8cd2a6998382&quot;&#xa;  },&#xa;  &quot;safari:useSimulator&quot;: false,&#xa;  &quot;webkit:WebRTC&quot;: {&#xa;    &quot;DisableICECandidateFiltering&quot;: false,&#xa;    &quot;DisableInsecureMediaCapture&quot;: false&#xa;  },&#xa;  &quot;kt:requestId&quot;: &quot;e9440372-87d2-4a50-ba68-8cd2a6998382&quot;,&#xa;  &quot;safari:platformVersion&quot;: &quot;14.6&quot;,&#xa;  &quot;browserName&quot;: &quot;Safari&quot;,&#xa;  &quot;safari:automaticInspection&quot;: false,&#xa;  &quot;platformName&quot;: &quot;MAC&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;f384a950-09f6-4bd6-b632-466a19ddd455&quot;,&#xa;    &quot;executionMode&quot;: &quot;queue&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;e9440372-87d2-4a50-ba68-8cd2a6998382&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;usingTunnel&quot;: false,&#xa;      &quot;accountUuid&quot;: &quot;c6686683-9d96-48f5-b27c-e636febf5ea7&quot;,&#xa;      &quot;organizationId&quot;: &quot;1874306&quot;,&#xa;      &quot;channel&quot;: &quot;kse;v\u003d10.0.1&quot;&#xa;    },&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;userId&quot;: 1643285,&#xa;    &quot;usingTunnel&quot;: false&#xa;  }&#xa;}"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;executionId&quot;: &quot;f384a950-09f6-4bd6-b632-466a19ddd455&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;e9440372-87d2-4a50-ba68-8cd2a6998382&quot;&#xa;}"/>
+         <property name="browser" value="Safari 17"/>
+         <property name="hostAddress" value="192.168.202.1"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+      </properties>
+      <testcase name="Test Cases/TC1_VerifyLoginPage" time="34.7" classname="Test Cases/TC1_VerifyLoginPage" status="PASSED">
+         <system-out><![CDATA[22-01-2025T14:44:19 - [TEST_CASE][PASSED] - Test Cases/TC1_VerifyLoginPage: Test Cases/TC1_VerifyLoginPage
+
+22-01-2025T14:44:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2025T14:44:20 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+22-01-2025T14:44:20 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+22-01-2025T14:44:20 - [MESSAGE][INFO] - User set preference: ['platformName', 'macos']
+
+22-01-2025T14:44:20 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1874306, accountId=1457090, channel=kse;v=10.0.1}, executionMode=queue, usingTunnel=false}']
+
+22-01-2025T14:44:20 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+22-01-2025T14:44:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2025T14:44:42 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:44:42 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:44:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2025T14:44:45 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:44:46 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+22-01-2025T14:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+22-01-2025T14:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+22-01-2025T14:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+22-01-2025T14:44:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/h2_Login' is present
+
+22-01-2025T14:44:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-01-2025T14:44:49 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/h2_Login' is present
+
+22-01-2025T14:44:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username")): Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username' is visible
+
+22-01-2025T14:44:50 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Username_username' is visible
+
+22-01-2025T14:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login' is clicked on
+
+22-01-2025T14:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/button_Login' is clicked on
+
+22-01-2025T14:44:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), "Login failed! Please ensure the username and password are valid."): Actual text and expected text of test object 'Object Repository/LoginPage/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+22-01-2025T14:44:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginPage/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' are matched.
+
+22-01-2025T14:44:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2025T14:44:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_VerifyDemoUsernamePassword" time="31.356" classname="Test Cases/TC2_VerifyDemoUsernamePassword" status="PASSED">
+         <system-out><![CDATA[22-01-2025T14:44:54 - [TEST_CASE][PASSED] - Test Cases/TC2_VerifyDemoUsernamePassword: Test Cases/TC2_VerifyDemoUsernamePassword
+
+22-01-2025T14:44:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2025T14:44:54 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+22-01-2025T14:44:54 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+22-01-2025T14:44:54 - [MESSAGE][INFO] - User set preference: ['platformName', 'macos']
+
+22-01-2025T14:44:54 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1874306, accountId=1457090, channel=kse;v=10.0.1}, executionMode=queue, usingTunnel=false}']
+
+22-01-2025T14:44:54 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+22-01-2025T14:44:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2025T14:45:16 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:45:16 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:45:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2025T14:45:18 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:45:19 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:45:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+22-01-2025T14:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+22-01-2025T14:45:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+22-01-2025T14:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Page_CURA Healthcare Service/a_Login' is clicked on
+
+22-01-2025T14:45:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/label_Demo account"), "Demo account"): Actual text and expected text of test object 'Object Repository/LoginPage/Page_CURA Healthcare Service/label_Demo account' are matched.
+
+22-01-2025T14:45:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginPage/Page_CURA Healthcare Service/label_Demo account' are matched.
+
+22-01-2025T14:45:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control")): Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control' is visible
+
+22-01-2025T14:45:23 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control' is visible
+
+22-01-2025T14:45:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control_1")): Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control_1' is visible
+
+22-01-2025T14:45:25 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Page_CURA Healthcare Service/input_Demo account_form-control_1' is visible
+
+22-01-2025T14:45:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2025T14:45:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC3_VerifyHomePage" time="30.868" classname="Test Cases/TC3_VerifyHomePage" status="PASSED">
+         <system-out><![CDATA[22-01-2025T14:45:26 - [TEST_CASE][PASSED] - Test Cases/TC3_VerifyHomePage: Test Cases/TC3_VerifyHomePage
+
+22-01-2025T14:45:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2025T14:45:26 - [MESSAGE][INFO] - User set preference: ['browserVersion', '17']
+
+22-01-2025T14:45:26 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+22-01-2025T14:45:26 - [MESSAGE][INFO] - User set preference: ['platformName', 'macos']
+
+22-01-2025T14:45:26 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=1874306, accountId=1457090, channel=kse;v=10.0.1}, executionMode=queue, usingTunnel=false}']
+
+22-01-2025T14:45:26 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+22-01-2025T14:45:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2025T14:45:47 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:45:47 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Wait functionality. Please update your browser or switch to a compatible one.
+
+22-01-2025T14:45:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2025T14:45:49 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:45:50 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+22-01-2025T14:45:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+22-01-2025T14:45:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+22-01-2025T14:45:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health")): Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+22-01-2025T14:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health' is clicked on
+
+22-01-2025T14:45:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health"), "We Care About Your Health"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health' are matched.
+
+22-01-2025T14:45:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/h3_We Care About Your Health' are matched.
+
+22-01-2025T14:45:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+22-01-2025T14:45:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment' are matched.
+
+22-01-2025T14:45:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment")): Object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+22-01-2025T14:45:55 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+22-01-2025T14:45:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2025T14:45:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-01-2025T14:44:02 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/TC1_VerifyLoginPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC1_VerifyLoginPage.run(TC1_VerifyLoginPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1737537211397.run(TempTestSuite1737537211397.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-PTO9K6O', ip: '192.168.202.1'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:46)
+	at com.kms.katalon.core.webui.driver.remote.GenericRemoteDriverBuilder.build(GenericRemoteDriverBuilder.java:62)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:221)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1736159684878.run(Script1736159684878.groovy:20)
+	... 15 more
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:389)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:31)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	... 29 more
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:580)
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:527)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:447)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.stopOnError(SSLFlowDelegate.java:983)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.errorCommon(SubscriberWrapper.java:419)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.errorCommon(SSLFlowDelegate.java:366)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.onError(SubscriberWrapper.java:410)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:637)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:821)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalError(SocketTube.java:770)
+	at java.net.http/jdk.internal.net.http.SocketTube.signalClosed(SocketTube.java:159)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.close(PlainHttpConnection.java:372)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.close(AsyncSSLConnection.java:111)
+	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:157)
+	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:245)
+	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:260)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection$ConnectTimerEvent.handle(PlainHttpConnection.java:102)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1270)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:899)
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:581)
+	... 29 more]]></system-out>
+      <system-err><![CDATA[22-01-2025T14:44:02 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/TC1_VerifyLoginPage FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC1_VerifyLoginPage.run(TC1_VerifyLoginPage:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1737537211397.run(TempTestSuite1737537211397.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-PTO9K6O', ip: '192.168.202.1'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:46)
+	at com.kms.katalon.core.webui.driver.remote.GenericRemoteDriverBuilder.build(GenericRemoteDriverBuilder.java:62)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:221)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1736159684878.run(Script1736159684878.groovy:20)
+	... 15 more
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CRemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:389)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:31)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	... 29 more
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:580)
+	at java.net.http/jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:527)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:447)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate.stopOnError(SSLFlowDelegate.java:983)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.errorCommon(SubscriberWrapper.java:419)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.errorCommon(SSLFlowDelegate.java:366)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.onError(SubscriberWrapper.java:410)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:637)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:821)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalError(SocketTube.java:770)
+	at java.net.http/jdk.internal.net.http.SocketTube.signalClosed(SocketTube.java:159)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.close(PlainHttpConnection.java:372)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.close(AsyncSSLConnection.java:111)
+	at java.net.http/jdk.internal.net.http.Exchange$ConnectionAborter.closeConnection(Exchange.java:157)
+	at java.net.http/jdk.internal.net.http.Exchange.cancel(Exchange.java:245)
+	at java.net.http/jdk.internal.net.http.MultiExchange.cancel(MultiExchange.java:260)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection$ConnectTimerEvent.handle(PlainHttpConnection.java:102)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1270)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:899)
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:581)
+	... 29 more]]></system-err>
+   </testsuite>
+</testsuites>
