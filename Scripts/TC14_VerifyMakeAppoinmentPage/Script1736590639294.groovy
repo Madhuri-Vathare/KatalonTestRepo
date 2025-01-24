@@ -21,58 +21,58 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
-WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/a_Login (1)'))
 
-WebUI.setText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/input_Username_username (1)'), 
     'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/input_Password_password (1)'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/button_Login (1)'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Make Appointment'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/h2_Make Appointment (1)'), 
     'Make Appointment')
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Facility'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/label_Facility'), 
     'Facility')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Apply for hospital readmission'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/label_Apply for hospital readmission'), 
     'Apply for hospital readmission')
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Healthcare Program'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/label_Healthcare Program'), 
     'Healthcare Program')
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Medicare'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/label_Medicare'), 
     'Medicare')
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Medicaid'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/label_Medicaid'), 
     'Medicaid')
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_None'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/label_None'), 
     'None')
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Visit Date (Required)'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/label_Visit Date (Required)'), 
     'Visit Date (Required)')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/label_Comment'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/label_Comment'), 
     'Comment')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/textarea_Comment_comment'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/textarea_Comment_comment'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment'), 
+WebUI.verifyElementText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/button_Book Appointment'), 
     'Book Appointment')
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/button_Book Appointment'))
 
 WebUI.closeBrowser()
 

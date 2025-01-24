@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Facility</name>
+   <name>td_11</name>
    <tag></tag>
-   <elementGuidId>48e1599c-c69f-4395-a88e-7b781d2c40d0</elementGuidId>
+   <elementGuidId>2456ecee-6999-492d-b863-dc0ff5869c58</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='appointment']/div/div/form/div/label</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>label.col-sm-offset-3.col-sm-2.control-label</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[14]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Facility&quot;i</value>
+         <value>internal:role=cell[name=&quot;11&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +27,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>1e880984-4de7-4bb9-a9b3-9e8808251cc5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>combo_facility</value>
-      <webElementGuid>92fbb540-2ed0-4662-8842-c2d890edb07c</webElementGuid>
+      <value>td</value>
+      <webElementGuid>c9053ed4-3e9d-4276-81d0-6f4bf57498aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>col-sm-offset-3 col-sm-2 control-label</value>
-      <webElementGuid>73e7c017-a874-4bc1-958b-8585ff457c94</webElementGuid>
+      <value>day</value>
+      <webElementGuid>36bc73b6-13df-4e7c-94c7-2b6f0dc51103</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Facility</value>
-      <webElementGuid>5cce9841-2500-480c-a251-fcbb1439abbe</webElementGuid>
+      <value>11</value>
+      <webElementGuid>657f0172-9e87-4bf2-8564-6a3a2d982741</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/label[@class=&quot;col-sm-offset-3 col-sm-2 control-label&quot;]</value>
-      <webElementGuid>f68ef7ad-8f77-41c7-b1f1-2aaf212d805d</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[2]/td[@class=&quot;day&quot;]</value>
+      <webElementGuid>b70c4cd2-06dd-4157-9a8d-ef90154bc745</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div/label</value>
-      <webElementGuid>493cbe84-f264-4208-93bc-01546b6eede0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[14]</value>
+      <webElementGuid>586f8414-3fce-465c-bb10-ad0f8afd7dc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[2]/following::label[1]</value>
-      <webElementGuid>8f002fb1-9192-4a80-bc38-f33c671ee90b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::td[14]</value>
+      <webElementGuid>9ab93c1d-1e52-4220-87a7-8681eea2bd68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::label[1]</value>
-      <webElementGuid>7b62e708-a15b-4732-8ae9-cf5452d9548c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::td[29]</value>
+      <webElementGuid>e8a95065-f9f8-453d-b55e-98f8382c66bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/preceding::label[2]</value>
-      <webElementGuid>1e2d7e79-cadb-4202-a3a1-3c502707efcb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::td[29]</value>
+      <webElementGuid>9110b6eb-8911-4488-9e04-6fe157092869</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Facility']/parent::*</value>
-      <webElementGuid>8769363a-f0b9-4e3a-8d4a-7f557ec44cb9</webElementGuid>
+      <value>//*/text()[normalize-space(.)='11']/parent::*</value>
+      <webElementGuid>4877a6d2-7b1e-4d35-b124-4fa46b16fa80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label</value>
-      <webElementGuid>c1ad84e6-f3da-4a4b-91cd-f185b264a001</webElementGuid>
+      <value>//tr[2]/td[7]</value>
+      <webElementGuid>e49d9a37-6ee6-4451-a72e-7d8784352c66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'Facility' or . = 'Facility')]</value>
-      <webElementGuid>d0e284e9-bc72-4160-b8a3-2ae681e3cb96</webElementGuid>
+      <value>//td[(text() = '11' or . = '11')]</value>
+      <webElementGuid>ab87bf3a-ce15-4569-9516-47fe212593ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

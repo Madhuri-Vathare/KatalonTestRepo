@@ -21,21 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars (1)'))
 
-WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/a_Login (1)'))
 
-WebUI.setText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'), 
+WebUI.setText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/input_Username_username (1)'), 
     'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/input_Password_password (1)'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/button_Login (1)'))
 
-WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/button_Login (1)'))
 
-WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Medicare_programs'))
+WebUI.click(findTestObject('Object Repository/MakeAppoinmentPage/Page_CURA Healthcare Service/input_Medicare_programs'))
 
 WebUI.closeBrowser()
 

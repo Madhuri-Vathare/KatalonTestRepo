@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_CURA Healthcare_fa fa-bars</name>
+   <name>i_CURA Healthcare_fa fa-bars (1)</name>
    <tag></tag>
    <elementGuidId>adeb879b-61e0-42c4-bd19-b47adfff6673</elementGuidId>
    <selectorCollection>

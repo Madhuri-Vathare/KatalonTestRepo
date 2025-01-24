@@ -6,12 +6,12 @@
    <elementGuidId>95f7c40a-2970-46c5-9dde-7262c3a81623</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='appointment']/div/div/form/div[3]/div/label</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label.radio-inline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appointment']/div/div/form/div[3]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

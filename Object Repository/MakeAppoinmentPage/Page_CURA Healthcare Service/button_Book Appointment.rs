@@ -6,12 +6,12 @@
    <elementGuidId>84f67b39-10d6-42d7-92c8-02df7c7ecfdf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='btn-book-appointment']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#btn-book-appointment</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn-book-appointment']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

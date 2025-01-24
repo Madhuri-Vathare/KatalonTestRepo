@@ -6,12 +6,12 @@
    <elementGuidId>aec41be3-ca71-4c60-a5cb-f1a6155ecbe8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='appointment']/div/div/form/div[2]/div/label</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label.checkbox-inline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appointment']/div/div/form/div[2]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

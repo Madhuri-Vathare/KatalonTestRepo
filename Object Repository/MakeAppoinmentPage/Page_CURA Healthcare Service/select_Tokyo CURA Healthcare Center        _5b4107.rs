@@ -6,12 +6,12 @@
    <elementGuidId>02e0fe37-f200-4366-875a-6d008c6b1896</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='combo_facility']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#combo_facility</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='combo_facility']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
