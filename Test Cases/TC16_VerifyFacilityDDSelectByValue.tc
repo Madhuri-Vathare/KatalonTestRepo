@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_VerifyFacilityDDSelectByValue</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>68304862-192e-478b-8463-5efcc73b5247</testCaseGuid>
+</TestCaseEntity>

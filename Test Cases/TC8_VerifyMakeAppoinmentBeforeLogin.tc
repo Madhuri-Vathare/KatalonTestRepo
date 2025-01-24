@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC8_VerifyMakeAppoinmentBeforeLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1f11485-6c7f-4dad-bc67-a0d01b6e4bb4</testCaseGuid>
+</TestCaseEntity>
